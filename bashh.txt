@@ -1,0 +1,20 @@
+ ls
+  452  tar -c z v f abc.tar.gz game.sh
+  453  tar -c z v f abc.tar.gz game.sh
+  454  tar -czvf abc.tar.gz game.sh
+  455  ls
+  456  tar -xzvf abc.tar.gz
+  457  ls
+  458  openssl enc -aes-256-cbc -salt -in abc.tar.gz -out abc.enc
+  459  ls
+  460  tar -xzvf abc.enc
+  461  openssl enc -d -aes-256-cbc -in abc.enc -out abc.tar.gz
+  462  ls
+  463  open ssl enc -d -aes-256-cbc -in abc.enc -out abcc.tar.gz
+  464  openssl enc -d -aes-256-cbc -in abc.enc -out abcc.tar.gz
+  465  ls
+  466  touch guessnum.sh
+  467  openssl enc -aes-256-cbc -salt -in secret.txt -out secret.enc
+  468  ls
+
+  494  find ./ | grep linux
